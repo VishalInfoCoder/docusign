@@ -4,9 +4,9 @@ from peewee import MySQLDatabase, DateTimeField, Model
 from playhouse.shortcuts import model_to_dict
 
 database = MySQLDatabase(
-    "docusign_new",
+    "docusign",
     user="nsai_user",
-    password="helloworld",
+    password="RSj;KI4=6iR}",
     host="localhost",
     port=3306
 )

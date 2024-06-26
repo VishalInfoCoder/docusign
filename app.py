@@ -18,6 +18,8 @@ db.database.connect()
 db.database.create_tables([User, Signature, DocumentStatus, Document])
 
 
+# app.register_blueprint(user_api.userRoutes, url_prefix="/api/user")
+
 
 
 @app.get("/")

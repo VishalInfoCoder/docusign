@@ -2,10 +2,10 @@
 
 class Configuration(object):
     DATABASE = {
-        'name': 'docusign',
+        'name': 'docusign_new',
         'engine': 'peewee.MySQLDatabase',
         'user': 'nsai_user',
-        'password': 'helloworld',
+        'password': 'RSj;KI4=6iR}',
         'host': 'localhost',
         'port': 3306,
     }
